@@ -29,9 +29,9 @@ public class MainPanel extends JPanel{
         add(new InfoPanel("CPF: "));
         
         add(anniversaryTitle);
-        add(new AnniversaryPanel("Dia"));
-        add(new AnniversaryPanel("Mês"));
-        add(new AnniversaryPanel("Ano"));
+        add(new AnniversaryPanel("Dia", 30));
+        add(new AnniversaryPanel("Mês", 12));
+        add(new AnniversaryPanel("Ano", 3000));
         
         add(presentationTitle);
         add(new TextSquare(5,20));
